@@ -1,9 +1,20 @@
+![banner](assets/bpm.png)
+
+---
 
 # Blender Projects Manager
 
 [![Python](https://img.shields.io/badge/python-3.8%2B-blue.svg)](https://www.python.org/downloads/release/python-380/)
 [![SQLAlchemy](https://img.shields.io/badge/SQLAlchemy-1.4.0%2B-blue.svg)](https://www.sqlalchemy.org/)
 [![ttkthemes](https://img.shields.io/badge/ttkthemes-3.2.0%2B-blue.svg)](https://github.com/RedFantom/ttkthemes)
+
+[![Blender Projects](https://img.shields.io/badge/Some_Projects_to_Organize-Blender-orange.svg)](https://blender.com)
+
+![Blender](https://img.shields.io/badge/blender-%23F5792A.svg?style=for-the-badge&logo=blender&logoColor=white)
+
+---
+
+![table_of_contents](assets/table_of_contents.png)
 
 ## Table of Contents
 
@@ -24,6 +35,10 @@
 ## TL;DR
 
 This project is a Blender Projects Manager application built with Python using `tkinter` for the GUI and SQLAlchemy for ORM. The application allows users to manage Blender projects, their associated file paths, and relevant dates through a user interface.
+
+![Introduction](assets/introduction.png)
+
+---
 
 ## Introduction
 
@@ -71,6 +86,10 @@ The database for this application is designed to manage Blender projects. It con
 - **BlenderProject**: Stores project details like name, description, and completion status.
 - **Path**: Contains file paths associated with each project.
 - **Date**: Records the start and finish dates for each project.
+
+---
+
+![diagram_banner](assets/diagrams.png)
 
 ## Diagram ERD
 
@@ -127,6 +146,10 @@ Base.metadata.create_all(engine)
 Session = sessionmaker(bind=engine)
 session = Session()
 ```
+
+---
+
+![CRUD](assets/crud.png)
 
 ## CRUD Operations
 
