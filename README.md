@@ -23,9 +23,9 @@
   - [TL;DR](#tldr)
   - [Introduction](#introduction)
   - [Dependencies](#dependencies)
-  - [Opis bazy danych w kontekście użycia w aplikacji](#opis-bazy-danych-w-kontekście-użycia-w-aplikacji)
-  - [Diagram ERD](#diagram-erd)
-  - [Implementacja ORM z użyciem SQLAlchemy](#implementacja-orm-z-użyciem-sqlalchemy)
+  - [Database Description in Context of App Usage](#database-description-in-context-of-app-usage)
+  - [ERD Diagram](#erd-diagram)
+  - [ORM Implementation with SQLAlchemy](#orm-implementation-with-sqlalchemy)
   - [CRUD Operations](#crud-operations)
     - [Create Operations](#create-operations)
     - [Read Operations](#read-operations)
@@ -79,7 +79,7 @@ Install the required dependencies using:
 pip install sqlalchemy ttkthemes
 ```
 
-## Opis bazy danych w kontekście użycia w aplikacji
+## Database Description in Context of App Usage
 
 The database for this application is designed to manage Blender projects. It consists of three tables: `BlenderProject`, `Path`, and `Date`. The `BlenderProject` table stores the main project details, while the `Path` table holds file paths related to the projects, and the `Date` table records the start and finish dates for each project.
 
@@ -91,13 +91,13 @@ The database for this application is designed to manage Blender projects. It con
 
 ![diagram_banner](assets/diagrams.png)
 
-## Diagram ERD
+## ERD Diagram
 
 Below is the Entity-Relationship Diagram (ERD) showing the relationships between the tables:
 
 ![Diagram](assets/diagram.png)
 
-## Implementacja ORM z użyciem SQLAlchemy
+## ORM Implementation with SQLAlchemy
 
 The following code defines the SQLAlchemy ORM models for the database:
 
@@ -287,3 +287,9 @@ def delete_date(self):
     session.commit()
     self.populate_date_tree()
 ```
+
+---
+
+![END](assets/end.png)
+
+### Thanks for being here with me, peace and love - Daniil :v:
