@@ -8,7 +8,7 @@
 [![SQLAlchemy](https://img.shields.io/badge/SQLAlchemy-1.4.0%2B-blue.svg)](https://www.sqlalchemy.org/)
 [![ttkthemes](https://img.shields.io/badge/ttkthemes-3.2.0%2B-blue.svg)](https://github.com/RedFantom/ttkthemes)
 
-[![Blender Projects](https://img.shields.io/badge/Some_Projects_to_Organize-Blender-orange.svg)](https://blender.com)
+[![Blender Projects](https://img.shields.io/badge/Some_files_to_organize-Blender-orange.svg)](https://blender.com)
 
 ![Blender](https://img.shields.io/badge/blender-%23F5792A.svg?style=for-the-badge&logo=blender&logoColor=white)
 
